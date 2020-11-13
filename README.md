@@ -1,4 +1,4 @@
-# SNAKE
+# SNAKEIFFEL
 
 Coding II & Software Engineering - Project
 
@@ -17,3 +17,23 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 1. [Releaseplan](#releaseplan)
 1. [Documentation - Sprint 1](#documentation-sprint-1)
 1. [Documentation - Sprint 2](#dokumentation-sprint-2)
+
+## 1. Prelude
+Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
+The player controls the snake on by changing directions on the playfield.
+The goal of the game lies in collecting as much points by eating Appels without letting the snake eat his own Tail.
+The game doesn't need to have an internet connection and can be played alone.
+It is a great idea to spend some fun time and to sharpen your reflexes.
+
+### Goal
+The aim is to combine the skills and competencies learned in programming and software engineering within a single project.
+To help us plan and advance we will use SCRUM.
+We are planning to go through two sprints for this project.
+
+### Conditions
+- The game should be programmed with JAVA
+- The project should be published on GitHub.
+- The build automation should be done with MAVEN.
+- The condition is that this program can be used by MAC, Windows and LinuxComputers.
+- The classes of the program should have the appropriate Unit-Tests.
+- The program should be able to be executed using a specially created JAR file and the command java-jar xxxxx.jar.
