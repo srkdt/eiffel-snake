@@ -8,7 +8,7 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 
 ### Table of contents
 
-1. [Prelude](#prelude)
+1. [Prelude](#1. prelude)
     + [Goal](#goal)
     + [Conditions](#conditions)
 1. [Build instructions](#build-instructions)
