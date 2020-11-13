@@ -1,8 +1,14 @@
 # SNAKEIFFEL
 
+
+
 Coding II & Software Engineering - Project
 
+
+
 Members: Enzo Job, Michiel Kindt, Théo Rey
+
+
 
 ## Table of contents
 	1. [Prelude](#prelude)
