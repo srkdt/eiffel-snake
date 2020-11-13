@@ -19,7 +19,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.release>1.8</maven.compiler.release>
-        
         <javafx.version>15</javafx.version>
         <junit.version>4.13</junit.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
