@@ -21,7 +21,7 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
     + [Documentation of important code snippets](#code2)
     + [Deduction of the test cases from the acceptance criteria of the user stories](#test2)
 
-## 1. Prelude
+## Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
 The player controls the snake on by changing directions on the playfield.
 The goal of the game lies in collecting as much points by eating Appels without letting the snake eat his own Tail.
@@ -41,11 +41,11 @@ We are planning to go through two sprints for this project.
 * The classes of the program should have the appropriate Unit-Tests.
 * The program should be able to be executed using a specially created JAR file and the command java-jar xxxxx.jar.
 
-## 2. Build instructions
+## Build instructions
 
-## 3. Operating manual
+## Operating manual
 
-## 4. Userstories
+## Userstories
 | **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
 |:-:|-----|:-:|:-:|-----|
 | 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | 1 | Points are added when the snake eats an Apple, the snake grows and becomes faster |
@@ -58,7 +58,7 @@ We are planning to go through two sprints for this project.
 | 8 | As a user I would like to be able to move with the arrow keys | 5 | 1 | The player uses the arrow keys to change the directions of the snake |
 | 9 | As a user I would like to have game options | 2 | 3 | Game options are implemented to let the player choose between different grafical sprites |
 
-## 5. Releaseplan
+## Releaseplan
 |  **Sprint 1** | **Sprint 2**  |
 |-----|-----|
 |  **Userstory 1:** Eat apples | **Userstory 2:** Difficulty parameters  |
@@ -67,12 +67,12 @@ We are planning to go through two sprints for this project.
 |  **Userstory 7:** Logical structure | **Userstory 9:** Game options  |
 |  **Userstory 8:** Arrow keys |   |
 	
-## 6. Documentation - Sprint 1
-### a. Tasklist for the implementation of the User Story
-### b. Documentation of important code snippets
-### c. Deduction of the test cases from the acceptance criteria of the user stories
+## Documentation - Sprint 1
+### Tasklist for the implementation of the User Story
+### Documentation of important code snippets
+### Deduction of the test cases from the acceptance criteria of the user stories
 
-## 7. Documentation - Sprint 2
-### a. Tasklist for the implementation of the User Story
-### b. Documentation of important code snippets
-### c. Deduction of the test cases from the acceptance criteria of the user stories
+## Documentation - Sprint 2
+### Tasklist for the implementation of the User Story
+### Documentation of important code snippets
+### Deduction of the test cases from the acceptance criteria of the user stories
