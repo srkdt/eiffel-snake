@@ -40,16 +40,16 @@ We are planning to go through two sprints for this project.
 ## 3. Operating manual
 
 ## 4. Userstories
-| **Userstory Nr.** |   **Userstories / Acceptance criteria**  | **Storypoints**  |  **Priority** |
-|:-:|-----|:-:|:-:|
-| 1 |  | x | x |
-| 2 |  | x | x |
-| 3 |  | x | x |
-| 4 |  | x | x |
-| 5 |  | x | x |
-| 6 |  | x | x |
-| 7 |  | x | x |
-| 8 |  | x | x |
+| **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
+|:-:|-----|:-:|:-:|-----|
+| 1 |  | x | x |  |
+| 2 |  | x | x |  |
+| 3 |  | x | x |  |
+| 4 |  | x | x |  |
+| 5 |  | x | x |  |
+| 6 |  | x | x |  |
+| 7 |  | x | x |  |
+| 8 |  | x | x |  |
 
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
