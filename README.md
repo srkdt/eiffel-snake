@@ -42,14 +42,15 @@ We are planning to go through two sprints for this project.
 ## 4. Userstories
 | **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
 |:-:|-----|:-:|:-:|-----|
-| 1 |  | x | x |  |
-| 2 |  | x | x |  |
-| 3 |  | x | x |  |
-| 4 |  | x | x |  |
-| 5 |  | x | x |  |
-| 6 |  | x | x |  |
-| 7 |  | x | x |  |
-| 8 |  | x | x |  |
+| 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | x |  |
+| 2 | As a user I would like to be able to enter difficulty parameters | 2 | x |  |
+| 3 | As a user I would like to be able to start over or leave at the end of the game | 3 | x |  |
+| 4 | As a user I want to see an animation and my final score at the end of the game | 3 | x |  |
+| 5 | As a user I want to have a good looking interface | 3 | x |  |
+| 6 | As user I would like to see my current score | 2 | x |  |
+| 7 | As a programmer I want to be able to reproduce the program easily in order to rebuild it, maintain it and add new features. | 2 | x |  Comments in the code. Logical structure (classes, methods, variables) |
+| 8 | As a user I would like to be able to move with the arrow keys | 5 | x |  |
+| 9 | As a user I would like to have game options | 2 | x |  |
 
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
