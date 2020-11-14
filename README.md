@@ -53,13 +53,13 @@ We are planning to go through two sprints for this project.
 | 9 | As a user I would like to have game options | 2 | 3 | Game options are implemented to let the player choose between different grafical sprites |
 
 ## 5. Releaseplan
-|  Sprint 1 | Sprint 2  |
+|  **Sprint 1** | **Sprint 2**  |
 |-----|-----|
-|  Userstory 1: Eat apples | Userstory 2: Difficulty parameters  |
-|  Userstory 3: Start over | Userstory 4: Final score  |
-|  Userstory 6: Current score | Userstory 5: Good looking interface  |
-|  Userstory 7: Logical structure | Userstory 9: Game options  |
-|  Userstory 8: Arrow keys |   |
+|  **Userstory 1:** Eat apples | **Userstory 2:** Difficulty parameters  |
+|  **Userstory 3:** Start over | **Userstory 4:** Final score  |
+|  **Userstory 6:** Current score | **Userstory 5:** Good looking interface  |
+|  **Userstory 7:** Logical structure | **Userstory 9:** Game options  |
+|  **Userstory 8:** Arrow keys |   |
 	
 ## 6. Documentation - Sprint 1
 
