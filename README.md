@@ -42,15 +42,15 @@ We are planning to go through two sprints for this project.
 ## 4. Userstories
 | **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
 |:-:|-----|:-:|:-:|-----|
-| 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | x |  |
-| 2 | As a user I would like to be able to enter difficulty parameters | 2 | x |  |
-| 3 | As a user I would like to be able to start over or leave at the end of the game | 3 | x |  |
-| 4 | As a user I want to see an animation and my final score at the end of the game | 3 | x |  |
-| 5 | As a user I want to have a good looking interface | 3 | x |  |
-| 6 | As user I would like to see my current score | 2 | x |  |
-| 7 | As a programmer I want to be able to reproduce the program easily in order to rebuild it, maintain it and add new features. | 2 | x |  Comments in the code. Logical structure (classes, methods, variables) |
-| 8 | As a user I would like to be able to move with the arrow keys | 5 | x |  |
-| 9 | As a user I would like to have game options | 2 | x |  |
+| 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | 1 | Points are added when the snake eats an Apple, the snake grows and becomes faster |
+| 2 | As a user I would like to be able to enter difficulty parameters | 2 | 3 | The player can choose between several levels of difficulty |
+| 3 | As a user I would like to be able to start over or leave at the end of the game | 3 | 2 | A menu asks the player after the end of a game if he wants to restart or to quit the game |
+| 4 | As a user I want to see an animation and my final score at the end of the game | 3 | 3 | The end score is displayed at the end of a game with a small animation |
+| 5 | As a user I want to have a good looking interface | 3 | 3 | The interface should look good |
+| 6 | As user I would like to see my current score | 2 | 1 | The current score is displayed and updated in real time during the game |
+| 7 | As a programmer I want to be able to reproduce the program easily in order to rebuild it, maintain it and add new features. | 2 | 2 |  Comments in the code. Logical structure (classes, methods, variables) |
+| 8 | As a user I would like to be able to move with the arrow keys | 5 | 1 | The player uses the arrow keys to change the directions of the snake |
+| 9 | As a user I would like to have game options | 2 | 3 | Game options are implemented to let the player choose between different grafical sprites |
 
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
