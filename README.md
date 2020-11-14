@@ -54,7 +54,7 @@ We are planning to go through two sprints for this project.
 
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
-|:-:|:-:|
+|-----|-----|
 |  Userstory 1: Eat apples | Userstory 2: Difficulty parameters  |
 |  Userstory 3: Start over | Userstory 4: Final score  |
 |  Userstory 6: Current score | Userstory 5: Good looking interface  |
