@@ -59,11 +59,11 @@ We are planning to go through two sprints for this project.
 ## Releaseplan
 |  **Sprint 1** | **Sprint 2**  |
 |-----|-----|
-|  **Userstory 1: ** Eat apples | **Userstory 2: ** Difficulty parameters  |
-|  **Userstory 3: ** Start over | **Userstory 4: ** Final score  |
-|  **Userstory 6: ** Current score | **Userstory 5: ** Good looking interface  |
-|  **Userstory 7: ** Logical structure | **Userstory 9: ** Game options  |
-|  **Userstory 8: ** Arrow keys |   |
+|  **Userstory 1:**  Eat apples | **Userstory 2:**  Difficulty parameters  |
+|  **Userstory 3:**  Start over | **Userstory 4:**  Final score  |
+|  **Userstory 6:**  Current score | **Userstory 5:**  Good looking interface  |
+|  **Userstory 7:**  Logical structure | **Userstory 9:**  Game options  |
+|  **Userstory 8:**  Arrow keys |   |
 	
 ## Documentation - Sprint 1
 ### Tasklist
