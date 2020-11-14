@@ -55,11 +55,11 @@ We are planning to go through two sprints for this project.
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
 |:-:|:-:|
-|  Userstory 1 | Userstory 2  |
-|  Userstory 3 | Userstory 4  |
-|  Userstory 6 | Userstory 5  |
-|  Userstory 7 | Userstory 9  |
-|  Userstory 8 |   |
+|  Userstory 1: Eat apples | Userstory 2: Difficulty parameters  |
+|  Userstory 3: Start over | Userstory 4: Final score  |
+|  Userstory 6: Current score | Userstory 5: Good looking interface  |
+|  Userstory 7: Logical structure | Userstory 9: Game options  |
+|  Userstory 8: Arrow keys |   |
 	
 ## 6. Documentation - Sprint 1
 
