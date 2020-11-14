@@ -13,11 +13,11 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 1. [Userstories](#userstories)
 1. [Releaseplan](#releaseplan)
 1. [Documentation - Sprint 1](#documentation-sprint-1)
-    + [Tasklist - Sprint 1](#tasklist-sprint-1)
-    + [Important code snippets - Sprint 1](#important-code-snippets-sprint-1)
+    + [Tasklist - Sprint 1](#tasklist)
+    + [Important code snippets - Sprint 1](#important-code-snippets)
 1. [Documentation - Sprint 2](#dokumentation-sprint-2)
-    + [Tasklist - Sprint 2](#tasklist-sprint-2)
-    + [Important code snippets - Sprint 2](#important-code-snippets-sprint-2)
+    + [Tasklist - Sprint 2](#tasklist)
+    + [Important code snippets - Sprint 2](#important-code-snippets)
 
 ## Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
@@ -66,9 +66,9 @@ We are planning to go through two sprints for this project.
 |  **Userstory 8:** Arrow keys |   |
 	
 ## Documentation - Sprint 1
-### Tasklist - Sprint 1
-### Important code snippets - Sprint 1
+### Tasklist
+### Important code snippets
 
 ## Documentation - Sprint 2
-### Tasklist - Sprint 2
-### Important code snippets - Sprint 2
+### Tasklist
+### Important code snippets
