@@ -55,10 +55,11 @@ We are planning to go through two sprints for this project.
 ## 5. Releaseplan
 |  Sprint 1 | Sprint 2  |
 |:-:|:-:|
-|  US x | US x  |
-|  US x | US x  |
-|  US x | US x  |
-|  US x | US x  |
+|  Userstory Nr. 1 | Userstory Nr. 2  |
+|  Userstory Nr. 3 | Userstory Nr. 4  |
+|  Userstory Nr. 6 | Userstory Nr. 5  |
+|  Userstory Nr. 7 | Userstory Nr. 9  |
+|  Userstory Nr. 8 |   |
 	
 ## 6. Documentation - Sprint 1
 
