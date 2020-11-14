@@ -13,7 +13,13 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 1. [Userstories](#userstories)
 1. [Releaseplan](#releaseplan)
 1. [Documentation - Sprint 1](#documentation-sprint-1)
+    + [Tasklist for the implementation of the User Story](#tasklist1)
+    + [Documentation of important code snippets](#code1)
+    + [Deduction of the test cases from the acceptance criteria of the user stories](#test1)
 1. [Documentation - Sprint 2](#dokumentation-sprint-2)
+    + [Tasklist for the implementation of the User Story](#tasklist2)
+    + [Documentation of important code snippets](#code2)
+    + [Deduction of the test cases from the acceptance criteria of the user stories](#test2)
 
 ## 1. Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
@@ -62,5 +68,11 @@ We are planning to go through two sprints for this project.
 |  **Userstory 8:** Arrow keys |   |
 	
 ## 6. Documentation - Sprint 1
+### a. Tasklist for the implementation of the User Story
+### b. Documentation of important code snippets
+### c. Deduction of the test cases from the acceptance criteria of the user stories
 
 ## 7. Documentation - Sprint 2
+### a. Tasklist for the implementation of the User Story
+### b. Documentation of important code snippets
+### c. Deduction of the test cases from the acceptance criteria of the user stories
