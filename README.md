@@ -67,8 +67,38 @@ We are planning to go through two sprints for this project.
 	
 ## Documentation - Sprint 1
 ### Tasklist
+| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+|:-:|-----|:-:|:-:|
+| 1 |  | x | x Stunden |
+| 2 |  | x | x Stunden |
+| 3 |  | x | x Stunden |
+| 4 |  | x | x Stunden |
+| 5 |  | x | x Stunden |
+| 6 |  | x | x Stunden |
+| 7 |  | x | x Stunden |
+| 8 |  | x | x Stunden |
+| 9 |  | x | x Stunden |
+| 10 |  | x | x Stunden |
+| 11 |  | x | x Stunden |
+| 12 |  | x | x Stunden |
+
 ### Important code snippets
 
 ## Documentation - Sprint 2
 ### Tasklist
+| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+|:-:|-----|:-:|:-:|
+| 1 |  | x | x Stunden |
+| 2 |  | x | x Stunden |
+| 3 |  | x | x Stunden |
+| 4 |  | x | x Stunden |
+| 5 |  | x | x Stunden |
+| 6 |  | x | x Stunden |
+| 7 |  | x | x Stunden |
+| 8 |  | x | x Stunden |
+| 9 |  | x | x Stunden |
+| 10 |  | x | x Stunden |
+| 11 |  | x | x Stunden |
+| 12 |  | x | x Stunden |
+
 ### Important code snippets
