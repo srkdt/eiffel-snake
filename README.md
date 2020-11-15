@@ -22,14 +22,14 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 ## Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
 The player controls the snake on by changing directions on the playfield.
-The goal of the game lies in collecting as much points by eating Appels without letting the snake eat his own Tail.
-The game doesn't need to have an internet connection and can be played alone.
+The goal of the game lies in collecting points by eating Apples, without letting the snake eat his own Tail.
+The game doesn't need an internet connection and can be played alone.
 It is a great idea to spend some fun time and to sharpen your reflexes.
 
 ### Goal
 The aim is to combine the skills and competencies learned in programming and software engineering within a single project.
-To help us plan and advance we will use SCRUM.
-We are planning to go through two sprints for this project.
+For development we're using the SCRUM framework.
+We are planning on two sprints for this project.
 
 ### Conditions
 * The game should be programmed with JAVA
