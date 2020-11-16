@@ -20,11 +20,8 @@ public class Main_UI extends Application {
 
 	static int blockSize = 10; // size of a snake block
 	int width = 128, height = 72; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
-
 	int il = 5; // taille initiale du serpent
-
 	long then = System.nanoTime();
-
 	boolean changed = false;
 	int nextUpdate;
 	boolean hasNext = false;
