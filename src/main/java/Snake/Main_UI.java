@@ -1,18 +1,12 @@
 package Snake;
 
-import java.util.Optional;
-
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Background;
@@ -24,8 +18,7 @@ import javafx.stage.Stage;
 
 public class Main_UI extends Application {
 
-	static int blockSize = 10;
-
+	static int blockSize = 10; // size of a snake block
 	int width = 128, height = 72; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
 
 	int il = 5; // taille initiale du serpent
