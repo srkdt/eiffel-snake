@@ -10,6 +10,7 @@ public class Food extends Rectangle {
 	public Food(int x, int y) {
 
 		super(Main_UI.blockSize, Main_UI.blockSize);
+		
 		this.posX = x;
 		this.posY = y;
 
