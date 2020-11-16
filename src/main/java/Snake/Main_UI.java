@@ -1,4 +1,5 @@
 package Snake;
+
 import java.util.Optional;
 
 import javafx.animation.AnimationTimer;
@@ -42,98 +43,90 @@ public class Main_UI extends Application {
 
 	public void start(Stage ps) {
 
-		VBox start = new VBox(10);		
-		
-		start.setBackground(new Background(new BackgroundFill(Color.BLACK, null , null))); // set the background color 
-				
-		// Initializations of buttonStart 
+		VBox start = new VBox(10);
 
-		buttonStart = new Button("START"); // initializes buttonStart as a new button	
+		start.setBackground(new Background(new BackgroundFill(Color.BLACK, null, null))); // set the background color
+
+		// Initializations of buttonStart
+
+		buttonStart = new Button("START"); // initializes buttonStart as a new button
 
 		buttonStart.setPrefSize(250, 100); // set width and height of the buttonStart
 
 		buttonStart.setTranslateX(130); // positions button in X axes
-		buttonStart.setTranslateY(40); // positions button in Y axes 
-		
+		buttonStart.setTranslateY(40); // positions button in Y axes
+
 		buttonStart.setTextFill(Color.BLACK); // set the text color in the button
-		
-		buttonStart.setStyle("-fx-background-color: pink"); // initializes button color 
-		
-		Font s = new Font("Arial", 28); // can change the size and writing of the text in the button 
+
+		buttonStart.setStyle("-fx-background-color: pink"); // initializes button color
+
+		Font s = new Font("Arial", 28); // can change the size and writing of the text in the button
 		buttonStart.setFont(s);
-		
-		
+
 		// Initializations of buttonExit
 
-		buttonExit = new Button("EXIT"); // initializes buttonExit as a new button	
-	
-		buttonExit.setPrefSize(100, 30);  // set width and height of the buttonExit
+		buttonExit = new Button("EXIT"); // initializes buttonExit as a new button
+
+		buttonExit.setPrefSize(100, 30); // set width and height of the buttonExit
 
 		buttonExit.setTranslateX(205); // positions button in X axes
 		buttonExit.setTranslateY(80); // positions button in Y axes
 
 		buttonExit.setTextFill(Color.BLACK); // set the text color in the button
-		
+
 		buttonExit.setStyle("-fx-background-color: red"); // initializes button color
-		
-		
+
 		// Initializations of buttonReturnMenu
 
-		buttonReturnMenu = new Button("Back to Menu"); // initializes buttonReturnMenu as a new button	
-		
+		buttonReturnMenu = new Button("Back to Menu"); // initializes buttonReturnMenu as a new button
+
 		buttonReturnMenu.setTranslateX(500); // positions button in X axes
 		buttonReturnMenu.setTranslateY(-40); // positions button in Y axes
-		
+
 		buttonReturnMenu.setStyle("-fx-background-color: pink"); // initializes button color
-		
-		
-		
+
 		// Initializations of buttonExitInGame
 
-		buttonExitInGame = new Button("EXIT"); // initializes buttonExitInGame as a new button	
-		
+		buttonExitInGame = new Button("EXIT"); // initializes buttonExitInGame as a new button
+
 		buttonExitInGame.setTranslateX(500); // positions button in X axes
 		buttonExitInGame.setTranslateY(-20); // positions button in Y axes
-		
+
 		buttonExitInGame.setStyle("-fx-background-color: red"); // initializes button color
-		
-		
+
 		// Initializations of buttonRestartWhenLost
-		
-		buttonRestartWhenLost = new Button("Restart"); // initializes buttonRestartWhenLost as a new button	
-		
+
+		buttonRestartWhenLost = new Button("Restart"); // initializes buttonRestartWhenLost as a new button
+
 		buttonRestartWhenLost.setPrefSize(100, 50); // set width and height of the buttonRestartWhenLost
-		
+
 		buttonRestartWhenLost.setTranslateX(190); // positions button in X axes
 		buttonRestartWhenLost.setTranslateY(20); // positions button in Y axes
-		
+
 		buttonRestartWhenLost.setStyle("-fx-background-color: green"); // initializes button color
-	
-		
+
 		// Initializations of buttonBackToMenuWhenLost
-		
-		buttonBackToMenuWhenLost = new Button("Back to Menu"); // initializes buttonBackToMenuWhenLost as a new button	
-		
+
+		buttonBackToMenuWhenLost = new Button("Back to Menu"); // initializes buttonBackToMenuWhenLost as a new button
+
 		buttonBackToMenuWhenLost.setPrefSize(100, 50); // set width and height of the buttonBackToMenuWhenLost
-		
+
 		buttonBackToMenuWhenLost.setTranslateX(190); // positions button in X axes
 		buttonBackToMenuWhenLost.setTranslateY(30); // positions button in Y axes
-		
+
 		buttonBackToMenuWhenLost.setStyle("-fx-background-color: pink"); // initializes button color
-		
+
 		// Initializations of buttonExitWhenLost
-		
-		buttonExitWhenLost = new Button("Exit"); // initializes buttonExitWhenLost as a new button	
+
+		buttonExitWhenLost = new Button("Exit"); // initializes buttonExitWhenLost as a new button
 
 		buttonExitWhenLost.setPrefSize(100, 50); // set width and height of the buttonExitWhenLost
-		
+
 		buttonExitWhenLost.setTranslateX(190); // positions button in X axes
 		buttonExitWhenLost.setTranslateY(40); // positions button in Y axes
-		
+
 		buttonExitWhenLost.setStyle("-fx-background-color: red"); // initializes button color
-		
-		
-		
+
 		Label score = new Label(" Score : 0 ");
 		score.setFont(Font.font("Arial", 32));
 
@@ -165,7 +158,7 @@ public class Main_UI extends Application {
 						VBox lost = new VBox(10);
 						Label finalScore = new Label("          Your final Score is : " + f.score);
 						finalScore.setFont(Font.font("Arial", 32));
-						
+
 						lost.getChildren().addAll(finalScore, buttonRestartWhenLost, buttonBackToMenuWhenLost,
 								buttonExitWhenLost);
 
@@ -285,7 +278,6 @@ public class Main_UI extends Application {
 			}
 		});
 
-		
 	}
 
 	public void setDirection(Snake s, int d) {
