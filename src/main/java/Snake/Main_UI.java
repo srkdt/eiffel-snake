@@ -24,9 +24,9 @@ import javafx.stage.Stage;
 
 public class Main_UI extends Application {
 
-	static int block_size = 20;
+	static int blockSize = 10;
 
-	int width = 30, height = 20; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
+	int width = 128, height = 72; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
 
 	int il = 5; // taille initiale du serpent
 
