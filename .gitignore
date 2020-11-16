@@ -12,3 +12,7 @@ target/*
 !.vscode/launch.json
 !.vscode/extensions.json
 _site/
+<<<<<<< HEAD
+=======
+/bin/
+>>>>>>> branch 'dev' of https://github.com/enzojob/eiffel-snake
