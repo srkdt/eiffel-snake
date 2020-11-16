@@ -117,7 +117,6 @@ public class Main_UI extends Application {
 		buttonBackToMenuWhenLost.setStyle("-fx-background-color: pink"); // initializes button color
 
 		// Initializations of buttonExitWhenLost
-
 		buttonExitWhenLost = new Button("Exit"); // initializes buttonExitWhenLost as a new button
 
 		buttonExitWhenLost.setPrefSize(100, 50); // set width and height of the buttonExitWhenLost
