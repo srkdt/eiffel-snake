@@ -16,8 +16,8 @@ public class Food extends Rectangle {
 		setTranslateX(posX * Main_UI.blockSize);
 		setTranslateY(posY * Main_UI.blockSize);
 
-		setFill(Color.AQUA);
-		setStroke(Color.MEDIUMPURPLE);
+		setFill(Color.color(Math.random(), Math.random(), Math.random()));
+		setStroke(Color.BLACK);
 		setArcHeight(10);
 		setArcWidth(10);
 
