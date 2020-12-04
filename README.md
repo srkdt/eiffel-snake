@@ -70,16 +70,16 @@ We are planning on two sprints for this project.
 | Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
 |:-:|-----|:-:|:-:|
 | 1 | Create and display apples randomly | 1 | 2 Stunden |
-| 2 | Increment the score with each apple eaten | 1 | 1 Stunde  |
+| 2 | Increment the score with each apple eaten | 1 | 1 Stunde |
 | 3 | Extend the snake with every apple | 1 | 2 Stunden |
-| 4 | Implement options for start/end | 3 | 30 min    |
-| 5 | Implement menu  | 3 | 30 min    |
-| 6 | Score somewhere Display | 6 | 20 min    |
-| 7 | Reset score at death | 6 | 1 Stunde  |
-| 8 | Classes should be well divided | 7 | 30 min    |
+| 4 | Implement options for start/end | 3 | 30 min |
+| 5 | Implement menu  | 3 | 30 min |
+| 6 | Score somewhere Display | 6 | 20 min |
+| 7 | Reset score at death | 6 | 1 Stunde |
+| 8 | Classes should be well divided | 7 | 30 min |
 | 9 | Add a comment | 7 | 20 min    |
-| 10 | Respect conventions | 7 | 20 min    |
-| 11 | Create interface | 8 | 1 Stunde  |
+| 10 | Respect conventions | 7 | 20 min |
+| 11 | Create interface | 8 | 1 Stunde |
 | 12 | Implementing movement | 8 | 3 Stunden |
 | 13 | Prevent forbidden movement | 8 | 2 Stunden |
 
