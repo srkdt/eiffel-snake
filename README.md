@@ -47,7 +47,7 @@ Here is a short introduction to our game:
 * After starting the game, a start interface will appear with different buttons: START, EXIT....
 * The goal is to eat as many apples as possible to make the snake grow  
 * Each apple eaten gives 20 points 
-* When you bump into each other you will die 
+* When you bump into yourself you will die 
 * You can return to the menu or exit the game at any time 
 
 ## Userstories
