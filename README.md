@@ -69,18 +69,19 @@ We are planning on two sprints for this project.
 ### Tasklist
 | Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
 |:-:|-----|:-:|:-:|
-| 1 |  | x | x Stunden |
-| 2 |  | x | x Stunden |
-| 3 |  | x | x Stunden |
-| 4 |  | x | x Stunden |
-| 5 |  | x | x Stunden |
-| 6 |  | x | x Stunden |
-| 7 |  | x | x Stunden |
-| 8 |  | x | x Stunden |
-| 9 |  | x | x Stunden |
-| 10 |  | x | x Stunden |
-| 11 |  | x | x Stunden |
-| 12 |  | x | x Stunden |
+| 1 | Create and display apples randomly | 1 | x Stunden |
+| 2 | Increment the score with each apple eaten | 1 | x Stunden |
+| 3 | Extend the snake with every apple | 1 | x Stunden |
+| 4 | Implement options for start/end | 3 | x Stunden |
+| 5 | Implement menu  | 3 | x Stunden |
+| 6 | Score somewhere Display | 6 | x Stunden |
+| 7 | Reset score at death | 6 | x Stunden |
+| 8 | Classes should be well divided | 7 | x Stunden |
+| 9 | Add a comment | 7 | x Stunden |
+| 10 | Respect conventions | 7 | x Stunden |
+| 11 | Create interface | 8 | x Stunden |
+| 12 | Implementing movement | 8 | x Stunden |
+| 13 | Prevent forbidden movement | 8 | x Stunden |
 
 ### Important code snippets
 
@@ -88,17 +89,15 @@ We are planning on two sprints for this project.
 ### Tasklist
 | Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
 |:-:|-----|:-:|:-:|
-| 1 |  | x | x Stunden |
-| 2 |  | x | x Stunden |
-| 3 |  | x | x Stunden |
-| 4 |  | x | x Stunden |
-| 5 |  | x | x Stunden |
-| 6 |  | x | x Stunden |
-| 7 |  | x | x Stunden |
-| 8 |  | x | x Stunden |
-| 9 |  | x | x Stunden |
-| 10 |  | x | x Stunden |
-| 11 |  | x | x Stunden |
-| 12 |  | x | x Stunden |
+| 1 | Adjust speed | 2 | x Stunden |
+| 2 | Walls allow | 2 | x Stunden |
+| 3 | Random Snack | 2 | x Stunden |
+| 4 | Show Endscore | 4 | x Stunden |
+| 5 | Create animation(s) | 4 | x Stunden |
+| 6 | Implement animation | 4 | x Stunden |
+| 7 | Menu presentation | 5 | x Stunden |
+| 8 | More realistic sprites | 5 | x Stunden |
+| 9 | Select background with keyboard or mouse | 9 | x Stunden |
+| 10 | Snake colour can be selected | 9 | x Stunden |
 
 ### Important code snippets
