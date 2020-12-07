@@ -1,10 +1,10 @@
-package address.model;
+package address.presentation;
 
+import address.model.Snake;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -22,7 +22,7 @@ import javafx.stage.Stage;
 
 public class Main_UI extends Application {
 
-	static int blockSize = 25; // size of a snake block
+	public static int blockSize = 25; // size of a snake block
 	int width = 50, height = 30; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
 	int il = 5; // taille initiale du serpent
 	long then = System.nanoTime();

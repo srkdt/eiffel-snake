@@ -1,7 +1,8 @@
-package address.model;
+package address.presentation;
 
 import java.util.ArrayList;
 
+import address.model.Snake;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.Border;

@@ -2,14 +2,20 @@ package address.model;
 
 import java.util.ArrayList;
 
-import javafx.scene.paint.Color;
+import address.presentation.Block;
+import address.presentation.Field;
+import address.presentation.Main_UI;
 
 public class Snake {
 
-	ArrayList<Block> blocks = new ArrayList<Block>();
+	public ArrayList<Block> blocks = new ArrayList<Block>();
 
-	Block head;
-	Block tail;
+
+
+	public static int intitalSnakeLength = 5;
+
+	public Block head;
+	public Block tail;
 
 	public Snake(int il, Field f) {
 		int ipx = f.getW() / 2;
@@ -33,6 +39,11 @@ public class Snake {
 	public int getDirection() {
 		return head.direction;
 	}
+
+	public static int getIntitalSnakeLength() {
+		return intitalSnakeLength;
+	}
+
 
 	public void setDirection(int d) {
 		head.direction = d;
