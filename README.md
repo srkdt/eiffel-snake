@@ -18,6 +18,7 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 1. [Documentation - Sprint 2](#dokumentation-sprint-2)
     + [Tasklist - Sprint 2](#tasklist)
     + [Important code snippets - Sprint 2](#important-code-snippets)
+1. [Test cases](#test-cases)
 
 ## Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
@@ -76,7 +77,7 @@ Here is a short introduction to our game:
 	
 ## Documentation - Sprint 1
 ### Tasklist
-| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+| Tasknumber | Tasks | Userstory | Estimated effort |
 |:-:|-----|:-:|:-:|
 | 1 | Create and display apples randomly | 1 | 2 Stunden |
 | 2 | Increment the score with each apple eaten | 1 | 1 Stunde |
@@ -96,7 +97,7 @@ Here is a short introduction to our game:
 
 ## Documentation - Sprint 2
 ### Tasklist
-| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+| Tasknumber | Tasks | Userstory | Estimated effort |
 |:-:|-----|:-:|:-:|
 | 1 | Adjust speed of the snake| 2 | 1 Stunden |
 | 2 | Show Endscore | 4 | 1 Stunden |
@@ -105,3 +106,9 @@ Here is a short introduction to our game:
 | 5 | Menu presentation | 5 | 2 Stunden |
 
 ### Important code snippets
+
+
+## Test cases
+| Test Case # | Description | Test Data | Expected Result | Actual Result | Pass/Fail |
+|:-:|-----|:-:|:-:|:-:|:-:|
+| 1 |  |
