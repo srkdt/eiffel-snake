@@ -87,7 +87,7 @@ Here is a short introduction to our game:
 | 6 | Display score somewhere| 6 | 20 min |
 | 7 | Reset score at death | 6 | 1 Stunde |
 | 8 | Classes should be well divided | 7 | 30 min |
-| 9 | Add a comment | 7 | 20 min    |
+| 9 | Add comments | 7 | 20 min    |
 | 10 | Respect conventions | 7 | 20 min |
 | 11 | Create interface | 8 | 1 Stunde |
 | 12 | Implementing movements | 8 | 4 Stunden |
@@ -110,13 +110,15 @@ Here is a short introduction to our game:
 
 ## Test cases
 | Test Case # | Description | Test Data | Expected Result | Actual Result | Pass/Fail |
-|:-:|-----|:-:|:-:|:-:|:-:|
-| 1 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 2 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 3 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 4 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 5 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 6 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 7 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
-| 8 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+|:-:|-----|:-:|-----|:-:|:-:|
+| 1 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | As expected | Pass |
+| 2 | Is the score incremented with each eaten Apple? | Eat Apple | Increment the score with each apple eaten | As expected | Pass |
+| 3 | Does the snkae grow in size with each appel eaten? | Eat Apple | The size of the snake grows with apples eaten | As expected | Pass |
+| 4 | Are the start and exit buttons working properly? | Click on start/exit | The start button starts a new game and the exit button closes the software | As expected | Pass |
+| 5 | Is the score displayed during the game? | / | The current score is displayed and constantly updated during the game | As expected | Pass |
+| 6 | Is the score resetted at death? | Die | At the death, the current score is resetted to zero | As expected | Pass |
+| 7 | Can you change the direction of the snake by using the arrow keys? | Arrow Keys | Arrow keys change the direction of the snake | As expected | Pass |
+| 8 | Are forbidden movements prevented? | Arrow Keys | Cannot change the direction to the opposite (left->right or up->down) | As expected | Pass |
+| 9 | Can you adjust the difficulty of the game? | Clicking on the different difficulty buttons | The speed of the snake can be changed in the Menu to set the difficulty of the game| As expected | Pass |
+| 9 | Is the endscore shown on the screen? | Game Over | The Endscore is shown on the screen at Game Over| As expected | Pass |
 
