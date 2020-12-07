@@ -18,9 +18,8 @@ public class Snake {
 		head = new Block(ipx, ipy, null, f);
 		blocks.add(head);
 
-		head.setFill(Color.BLUE.desaturate());
-		head.setArcHeight(Main_UI.blockSize);
-		head.setArcWidth(Main_UI.blockSize);
+		head.setArcHeight(Main_UI.blockSize/4);
+		head.setArcWidth(Main_UI.blockSize/4);
 
 		tail = head;
 
@@ -28,9 +27,6 @@ public class Snake {
 			Block b = new Block(ipx + i, ipy, tail, f);
 			blocks.add(b);
 			tail = b;
-			tail.setFill(Color.FIREBRICK);
-//			tail.setArcWidth(Main_UI.blockSize/2);
-//			tail.setArcHeight(Main_UI.blockSize/2);
 		}
 	}
 
