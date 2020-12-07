@@ -70,7 +70,6 @@ public class Main_UI extends Application {
 		buttonSpeed.setTextFill(Color.WHITE); // set the text color in the button
 		buttonSpeed.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #FF8C00 ;"); // initializes button
 																								// color
-
 		// Initializations of buttonExit
 		buttonExit = new Button("EXIT"); // initializes buttonExit as a new button
 		buttonExit.setPrefSize(100, 30); // set width and height of the buttonExit
@@ -79,18 +78,13 @@ public class Main_UI extends Application {
 		buttonExit.setTextFill(Color.WHITE); // set the text color in the button
 		buttonExit.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #FF4500  ;"); // initializes button
 																								// color
-
 		// Initializations of buttonReturnMenu
 		buttonReturnMenu = new Button("Back to Menu"); // initializes buttonReturnMenu as a new button
-//		buttonReturnMenu.setTranslateX(400); // positions button in X axes
-//		buttonReturnMenu.setTranslateY(0); // positions button in Y axes
 		buttonReturnMenu.setTextFill(Color.WHITE);
 		buttonReturnMenu.setStyle("-fx-font-weight: bold;-fx-background-color: #2F4F4F "); // initializes button color
 
 		// Initializations of buttonExitInGame
 		buttonExitInGame = new Button("EXIT"); // initializes buttonExitInGame as a new button
-//		buttonExitInGame.setTranslateX(600); // positions button in X axes
-//		buttonExitInGame.setTranslateY(0); // positions button in Y axes
 		buttonExitInGame.setTextFill(Color.WHITE);
 		buttonExitInGame.setStyle(" -fx-font-weight: bold; -fx-background-color: red ;"); // initializes button color
 
@@ -121,10 +115,8 @@ public class Main_UI extends Application {
 		score.setFont(Font.font(" -fx-font-weight: bold; Arial", 22));
 
 		f = new Field(width, height);
-
 		f.addSnake(new Snake(il, f));
 
-//		HBox buttonBox = new HBox(10, score, buttonReturnMenu, buttonExitInGame);
 		HBox buttonBox = new HBox(10);
 		buttonBox.setPadding(new Insets(15, 12, 15, 12));
 		buttonBox.setSpacing(10);
