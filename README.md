@@ -120,5 +120,5 @@ Here is a short introduction to our game:
 | 7 | Can you change the direction of the snake by using the arrow keys? | Arrow Keys | Arrow keys change the direction of the snake | As expected | Pass |
 | 8 | Are forbidden movements prevented? | Arrow Keys | Cannot change the direction to the opposite (left->right or up->down) | As expected | Pass |
 | 9 | Can you adjust the difficulty of the game? | Clicking on the different difficulty buttons | The speed of the snake can be changed in the Menu to set the difficulty of the game| As expected | Pass |
-| 9 | Is the endscore shown on the screen? | Game Over | The Endscore is shown on the screen at Game Over| As expected | Pass |
+| 10 | Is the endscore shown on the screen? | Game Over | The Endscore is shown on the screen at Game Over| As expected | Pass |
 
