@@ -111,4 +111,12 @@ Here is a short introduction to our game:
 ## Test cases
 | Test Case # | Description | Test Data | Expected Result | Actual Result | Pass/Fail |
 |:-:|-----|:-:|:-:|:-:|:-:|
-| 1 |  |
+| 1 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 2 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 3 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 4 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 5 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 6 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 7 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+| 8 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | AS expected | Pass |
+
