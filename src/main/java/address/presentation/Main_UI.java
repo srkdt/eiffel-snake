@@ -279,7 +279,7 @@ public class Main_UI extends Application {
 		} else
 			speedCounter = 0;
 
-		String[] speedArray = { "Easy", "Medium", "Hard", };
+		String[] speedArray = { "EASY", "MEDIUM", "HARD", };
 		int[] factorArray = { 8, 16, 32 };
 
 		speedFactor = factorArray[speedCounter];
