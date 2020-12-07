@@ -18,8 +18,8 @@ public class Snake {
 		head = new Block(ipx, ipy, null, f);
 		blocks.add(head);
 
-		head.setArcHeight(Main_UI.blockSize/3);
-		head.setArcWidth(Main_UI.blockSize/3);
+		head.setArcHeight(Main_UI.blockSize/2);
+		head.setArcWidth(Main_UI.blockSize/2);
 
 		tail = head;
 
