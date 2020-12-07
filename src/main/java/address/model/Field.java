@@ -1,4 +1,4 @@
-package Snake;
+package address.model;
 
 import java.util.ArrayList;
 
@@ -18,7 +18,6 @@ public class Field extends Pane {
 	ArrayList<Block> blocks = new ArrayList<Block>();
 
 	int score = 0;
-
 	Food f;
 	Snake snake;
 
@@ -27,7 +26,7 @@ public class Field extends Pane {
 		h = height;
 
 		setMinSize(w * Main_UI.blockSize, h * Main_UI.blockSize);
-		setBackground(new Background(new BackgroundFill(Color.WHITE, null, null)));
+		setBackground(new Background(new BackgroundFill(Color.AZURE, null, null)));
 		setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, null, new BorderWidths(1))));
 
 		addFood();
@@ -72,6 +71,8 @@ public class Field extends Pane {
 	private void addBlock(Block b) {
 		getChildren().add(b);
 		blocks.add(b);
+		b.setFill(Color.color(Math.random(), Math.random(), Math.random()));
+
 	}
 
 	public void addFood() {
