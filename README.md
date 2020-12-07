@@ -40,9 +40,11 @@ We are planning on two sprints for this project.
 * The program should be able to be executed using a specially created JAR file and the command java-jar xxxxx.jar.
 
 ## Build instructions
+Laden Sie die Datei .jar auf ihren Computer runter.
+Vergewissern Sie sich, dass Sie eine Java Runtime Environment auf Ihrem Computer installiert haben.
+Klicken Sie (Doppelklick) auf ebenjene, um die Datei auszuführen.
 
 ## Operating manual
-
 Here is a short introduction to our game: 
 * After starting the game, a start interface will appear with different buttons: START, EXIT....
 * The goal is to eat as many apples as possible to make the snake grow  
