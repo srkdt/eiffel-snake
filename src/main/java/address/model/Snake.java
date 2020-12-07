@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import address.SnakeApp;
 import address.presentation.Block;
 import address.presentation.Field;
-import address.presentation.Main_UI;
 
 public class Snake {
 
