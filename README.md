@@ -53,7 +53,7 @@ Here is a short introduction to our game:
 ## Userstories
 | **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
 |:-:|-----|:-:|:-:|-----|
-| 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | 1 | Points are added when the snake eats an Apple, the snake grows and becomes faster |
+| 1 | As a player I want to eat apples to win points and grow | 3 | 1 | Points are added when the snake eats an Apple, the snake growswith each apple |
 | 2 | As a user I would like to be able to enter difficulty parameters | 2 | 3 | The player can choose between several levels of difficulty |
 | 3 | As a user I would like to be able to start over or leave at the end of the game | 3 | 2 | A menu asks the player after the end of a game if he wants to restart or to quit the game |
 | 4 | As a user I want to see an animation and my final score at the end of the game | 3 | 3 | The end score is displayed at the end of a game with a small animation |
@@ -81,14 +81,14 @@ Here is a short introduction to our game:
 | 3 | Extend the snake with every apple | 1 | 2 Stunden |
 | 4 | Implement options for start/end | 3 | 30 min |
 | 5 | Implement menu  | 3 | 30 min |
-| 6 | Score somewhere Display | 6 | 20 min |
+| 6 | Display score somewhere| 6 | 20 min |
 | 7 | Reset score at death | 6 | 1 Stunde |
 | 8 | Classes should be well divided | 7 | 30 min |
 | 9 | Add a comment | 7 | 20 min    |
 | 10 | Respect conventions | 7 | 20 min |
 | 11 | Create interface | 8 | 1 Stunde |
-| 12 | Implementing movement | 8 | 3 Stunden |
-| 13 | Prevent forbidden movement | 8 | 2 Stunden |
+| 12 | Implementing movements | 8 | 4 Stunden |
+| 13 | Prevent forbidden movements | 8 | 2 Stunden |
 
 ### Important code snippets
 
@@ -96,15 +96,10 @@ Here is a short introduction to our game:
 ### Tasklist
 | Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
 |:-:|-----|:-:|:-:|
-| 1 | Adjust speed | 2 | x Stunden |
-| 2 | Walls allow | 2 | x Stunden |
-| 3 | Random Snack | 2 | x Stunden |
-| 4 | Show Endscore | 4 | x Stunden |
-| 5 | Create animation(s) | 4 | x Stunden |
-| 6 | Implement animation | 4 | x Stunden |
-| 7 | Menu presentation | 5 | x Stunden |
-| 8 | More realistic sprites | 5 | x Stunden |
-| 9 | Select background with keyboard or mouse | 9 | x Stunden |
-| 10 | Snake colour can be selected | 9 | x Stunden |
+| 1 | Adjust speed of the snake| 2 | 1 Stunden |
+| 2 | Show Endscore | 4 | 1 Stunden |
+| 3 | Create animation(s) | 4 | 10 min |
+| 4 | Implement animation | 4 | 10 min |
+| 5 | Menu presentation | 5 | 2 Stunden |
 
 ### Important code snippets
