@@ -2,6 +2,7 @@ package address.model;
 
 import java.util.ArrayList;
 
+import address.SnakeApp;
 import address.presentation.Block;
 import address.presentation.Field;
 import address.presentation.Main_UI;
@@ -9,8 +10,6 @@ import address.presentation.Main_UI;
 public class Snake {
 
 	public ArrayList<Block> blocks = new ArrayList<Block>();
-
-
 
 	public static int intitalSnakeLength = 5;
 
@@ -24,8 +23,8 @@ public class Snake {
 		head = new Block(ipx, ipy, null, f);
 		blocks.add(head);
 
-		head.setArcHeight(Main_UI.blockSize  / 2);
-		head.setArcWidth(Main_UI.blockSize / 2);
+		head.setArcHeight(SnakeApp.getBlockSize()  / 2);
+		head.setArcWidth(SnakeApp.getBlockSize() / 2);
 
 		tail = head;
 
@@ -43,7 +42,6 @@ public class Snake {
 	public static int getIntitalSnakeLength() {
 		return intitalSnakeLength;
 	}
-
 
 	public void setDirection(int d) {
 		head.direction = d;

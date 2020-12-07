@@ -1,4 +1,5 @@
 package address.presentation;
+import address.SnakeApp;
 import javafx.scene.shape.Rectangle;
 
 public class Block extends Rectangle {
@@ -10,12 +11,12 @@ public class Block extends Rectangle {
 	int maxX , maxY;
 
 	public Block(int x , int y, Block p , Field f ) {
-		super(Main_UI.blockSize, Main_UI.blockSize);
+		super(SnakeApp.getBlockSize(), SnakeApp.getBlockSize());
 		posX = x;
 		posY = y;
 
-		setTranslateX(posX * Main_UI.blockSize);
-		setTranslateY(posY * Main_UI.blockSize);
+		setTranslateX(posX * SnakeApp.getBlockSize());
+		setTranslateY(posY * SnakeApp.getBlockSize());
 
 		previous = p ;
 
@@ -77,8 +78,8 @@ public class Block extends Rectangle {
 	}
 
 	public void updatePosition() {
-		setTranslateX(posX * Main_UI.blockSize);
-		setTranslateY(posY * Main_UI.blockSize);
+		setTranslateX(posX * SnakeApp.getBlockSize());
+		setTranslateY(posY * SnakeApp.getBlockSize());
 	}
 
 

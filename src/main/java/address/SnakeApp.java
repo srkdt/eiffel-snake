@@ -6,19 +6,18 @@ import address.presentation.Main_UI;
 
 public class SnakeApp {
 
-    private static final int blockSize = 25; // size of a snake block
-
-    private static final int width = 50;
-    private static final int height = 30;
+    private static final int blockSize = 25; // size of a block
+    private static final int width = 30;
+    private static final int height = 25;
     private static Snake snake;
     private static Field field;
 
-    public static void main(String[] args) {
+    @SuppressWarnings("static-access")
+	public static void main(String[] args) {
         field = new Field(width, height);
         snake = new Snake(Snake.getIntitalSnakeLength(), field);
         field.addSnake(snake);
         new Main_UI().main(args);
-
     }
 
     public static int getBlockSize() {

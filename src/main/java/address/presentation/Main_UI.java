@@ -1,5 +1,6 @@
 package address.presentation;
 
+import address.SnakeApp;
 import address.model.Snake;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
@@ -22,9 +23,6 @@ import javafx.stage.Stage;
 
 public class Main_UI extends Application {
 
-	public static int blockSize = 25; // size of a snake block
-	int width = 50, height = 30; // donne les dimensions du terrain de jeu dans lequel le snake va jouer
-	int il = 5; // taille initiale du serpent
 	long then = System.nanoTime();
 	boolean changed = false;
 	int nextUpdate;
@@ -114,8 +112,8 @@ public class Main_UI extends Application {
 		score.setTextFill(Color.WHITE);
 		score.setFont(Font.font(" -fx-font-weight: bold; Arial", 22));
 
-		f = new Field(width, height);
-		f.addSnake(new Snake(il, f));
+		f = new Field(SnakeApp.getWidth(), SnakeApp.getHeight());
+		f.addSnake(new Snake(Snake.getIntitalSnakeLength(), f));
 
 		HBox buttonBox = new HBox(10);
 		buttonBox.setPadding(new Insets(15, 12, 15, 12));
@@ -158,10 +156,10 @@ public class Main_UI extends Application {
 						buttonRestartWhenLost.setOnAction(new EventHandler<ActionEvent>() {
 							public void handle(ActionEvent event) {
 								root.getChildren().clear();
-								f = new Field(width, height);
-								f.addSnake(new Snake(il, f));
+								f = new Field(SnakeApp.getWidth(), SnakeApp.getHeight());
+								f.addSnake(new Snake(Snake.getIntitalSnakeLength(), f));
 								score.setText("Score : 0");
-								root.getChildren().addAll(f, score, buttonReturnMenu, buttonExitInGame);
+								root.getChildren().addAll(f, buttonBox);
 
 								ps.setResizable(false);
 								ps.setScene(scene);
@@ -212,8 +210,8 @@ public class Main_UI extends Application {
 			public void handle(ActionEvent event) {
 
 				root.getChildren().clear();
-				f = new Field(width, height);
-				f.addSnake(new Snake(il, f));
+				f = new Field(SnakeApp.getWidth(), SnakeApp.getHeight());
+				f.addSnake(new Snake(Snake.getIntitalSnakeLength(), f));
 				score.setText("Score : 0");
 				root.getChildren().addAll(f, buttonBox);
 
