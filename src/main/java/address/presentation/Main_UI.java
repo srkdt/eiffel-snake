@@ -50,13 +50,13 @@ public class Main_UI extends Application {
 		buttonStart.setTranslateY(40); // positions button in Y axes
 		buttonStart.setTextFill(Color.WHITE); // set the text color in the button
 		buttonStart.setStyle("-fx-font: 22 arial; -fx-font-weight: bold; -fx-base: #32CD32 ;"); // initializes button
-																								// color
+		                                            // color
 		DropShadow shadow = new DropShadow();
 		buttonStart.addEventHandler(MouseEvent.MOUSE_ENTERED, new EventHandler<MouseEvent>() {
-			@Override
-			public void handle(MouseEvent e) {
-				buttonStart.setEffect(shadow);
-			}
+		  @Override
+		  public void handle(MouseEvent e) {
+		    buttonStart.setEffect(shadow);
+		  }
 
 		});
 
@@ -67,7 +67,7 @@ public class Main_UI extends Application {
 		buttonSpeed.setTranslateY(80); // positions button in Y axes
 		buttonSpeed.setTextFill(Color.WHITE); // set the text color in the button
 		buttonSpeed.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #FF8C00 ;"); // initializes button
-																								// color
+		                                            // color
 		// Initializations of buttonExit
 		buttonExit = new Button("EXIT"); // initializes buttonExit as a new button
 		buttonExit.setPrefSize(100, 30); // set width and height of the buttonExit
@@ -75,7 +75,7 @@ public class Main_UI extends Application {
 		buttonExit.setTranslateY(60); // positions button in Y axes
 		buttonExit.setTextFill(Color.WHITE); // set the text color in the button
 		buttonExit.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #FF4500  ;"); // initializes button
-																								// color
+		                                            // color
 		// Initializations of buttonReturnMenu
 		buttonReturnMenu = new Button("Back to Menu"); // initializes buttonReturnMenu as a new button
 		buttonReturnMenu.setTextFill(Color.WHITE);
@@ -92,26 +92,27 @@ public class Main_UI extends Application {
 		buttonRestartWhenLost.setTranslateX(190); // positions button in X axes
 		buttonRestartWhenLost.setTranslateY(20); // positions button in Y axes
 		buttonRestartWhenLost.setTextFill(Color.WHITE);
-		buttonRestartWhenLost.setStyle("-fx-background-color: green"); // initializes button color
+		buttonRestartWhenLost.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #32CD32 ;"); // initializes button color
 
 		// Initializations of buttonBackToMenuWhenLost
 		buttonBackToMenuWhenLost = new Button("Back to Menu"); // initializes buttonBackToMenuWhenLost as a new button
-		buttonBackToMenuWhenLost.setPrefSize(100, 50); // set width and height of the buttonBackToMenuWhenLost
-		buttonBackToMenuWhenLost.setTranslateX(190); // positions button in X axes
+		buttonBackToMenuWhenLost.setPrefSize(150, 50); // set width and height of the buttonBackToMenuWhenLost
+		buttonBackToMenuWhenLost.setTranslateX(165); // positions button in X axes
 		buttonBackToMenuWhenLost.setTranslateY(30); // positions button in Y axes
-		buttonBackToMenuWhenLost.setStyle("-fx-background-color: pink"); // initializes button color
+		buttonBackToMenuWhenLost.setTextFill(Color.WHITE);
+		buttonBackToMenuWhenLost.setStyle("-fx-font: 18 arial; -fx-font-weight: bold; -fx-base: #FF8C00 ;"); // color
 
 		// Initializations of buttonExitWhenLost
 		buttonExitWhenLost = new Button("Exit"); // initializes buttonExitWhenLost as a new button
 		buttonExitWhenLost.setPrefSize(100, 50); // set width and height of the buttonExitWhenLost
 		buttonExitWhenLost.setTranslateX(190); // positions button in X axes
 		buttonExitWhenLost.setTranslateY(40); // positions button in Y axes
-		buttonExitWhenLost.setStyle("-fx-background-color: red"); // initializes button color
+		buttonExitWhenLost.setTextFill(Color.WHITE);
+		buttonExitWhenLost.setStyle("-fx-font: 18 arial; -fx-font-weight: bold;-fx-background-color: red"); // initializes button color
 
 		Label score = new Label(" Score : 0 ");
 		score.setTextFill(Color.WHITE);
 		score.setFont(Font.font(" -fx-font-weight: bold; Arial", 22));
-
 		f = new Field(SnakeApp.getWidth(), SnakeApp.getHeight());
 		f.addSnake(new Snake(Snake.getIntitalSnakeLength(), f));
 
