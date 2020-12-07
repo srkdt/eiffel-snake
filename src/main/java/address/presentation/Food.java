@@ -1,5 +1,6 @@
-package address.model;
+package address.presentation;
 
+import address.SnakeApp;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
@@ -9,18 +10,18 @@ public class Food extends Rectangle {
 
 	public Food(int x, int y) {
 
-		super(Main_UI.blockSize, Main_UI.blockSize);
+		super(SnakeApp.getBlockSize(), SnakeApp.getBlockSize());
 
 		this.posX = x;
 		this.posY = y;
 
-		setTranslateX(posX * Main_UI.blockSize);
-		setTranslateY(posY * Main_UI.blockSize);
+		setTranslateX(posX * SnakeApp.getBlockSize());
+		setTranslateY(posY * SnakeApp.getBlockSize());
 
 		setFill(Color.color(Math.random(), Math.random(), Math.random()));
 		setStroke(Color.BLACK);
-		setArcHeight(Main_UI.blockSize);
-		setArcWidth(Main_UI.blockSize);
+		setArcHeight(SnakeApp.getBlockSize());
+		setArcWidth(SnakeApp.getBlockSize());
 
 	}
 

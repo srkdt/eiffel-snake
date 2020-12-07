@@ -18,6 +18,7 @@ Members: Enzo Job, Michiel Kindt, Théo Rey
 1. [Documentation - Sprint 2](#dokumentation-sprint-2)
     + [Tasklist - Sprint 2](#tasklist)
     + [Important code snippets - Sprint 2](#important-code-snippets)
+1. [Test cases](#test-cases)
 
 ## Prelude
 Welcome to our project "SNAKEIFFEL" ! The project consists of our own interpretation of the well known and often copied game "SNAKE".
@@ -40,13 +41,22 @@ We are planning on two sprints for this project.
 * The program should be able to be executed using a specially created JAR file and the command java-jar xxxxx.jar.
 
 ## Build instructions
+* Laden Sie die Datei .jar auf ihren Computer runter.
+* Vergewissern Sie sich, dass Sie eine Java Runtime Environment auf Ihrem Computer installiert haben.
+* Klicken Sie (Doppelklick) auf ebenjene, um die Datei auszuführen.
 
 ## Operating manual
+Here is a short introduction to our game: 
+* After starting the game, a start interface will appear with different buttons: START, EXIT....
+* The goal is to eat as many apples as possible to make the snake grow  
+* Each apple eaten gives 20 points 
+* When you bump into yourself you will die 
+* You can return to the menu or exit the game at any time 
 
 ## Userstories
 | **Userstory Nr.** |   **Userstories**  | **Storypoints**  |  **Priority**  |  **Acceptance criteria** |
 |:-:|-----|:-:|:-:|-----|
-| 1 | As a player I want to eat apples to win points, grow and speed up with every meal | 3 | 1 | Points are added when the snake eats an Apple, the snake grows and becomes faster |
+| 1 | As a player I want to eat apples to win points and grow | 3 | 1 | Points are added when the snake eats an Apple, the snake growswith each apple |
 | 2 | As a user I would like to be able to enter difficulty parameters | 2 | 3 | The player can choose between several levels of difficulty |
 | 3 | As a user I would like to be able to start over or leave at the end of the game | 3 | 2 | A menu asks the player after the end of a game if he wants to restart or to quit the game |
 | 4 | As a user I want to see an animation and my final score at the end of the game | 3 | 3 | The end score is displayed at the end of a game with a small animation |
@@ -67,38 +77,48 @@ We are planning on two sprints for this project.
 	
 ## Documentation - Sprint 1
 ### Tasklist
-| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+| Tasknumber | Tasks | Userstory | Estimated effort |
 |:-:|-----|:-:|:-:|
-| 1 |  | x | x Stunden |
-| 2 |  | x | x Stunden |
-| 3 |  | x | x Stunden |
-| 4 |  | x | x Stunden |
-| 5 |  | x | x Stunden |
-| 6 |  | x | x Stunden |
-| 7 |  | x | x Stunden |
-| 8 |  | x | x Stunden |
-| 9 |  | x | x Stunden |
-| 10 |  | x | x Stunden |
-| 11 |  | x | x Stunden |
-| 12 |  | x | x Stunden |
+| 1 | Create and display apples randomly | 1 | 2 Stunden |
+| 2 | Increment the score with each apple eaten | 1 | 1 Stunde |
+| 3 | Extend the snake with every apple | 1 | 2 Stunden |
+| 4 | Implement options for start/end | 3 | 30 min |
+| 5 | Implement menu  | 3 | 30 min |
+| 6 | Display score somewhere| 6 | 20 min |
+| 7 | Reset score at death | 6 | 1 Stunde |
+| 8 | Classes should be well divided | 7 | 30 min |
+| 9 | Add comments | 7 | 20 min    |
+| 10 | Respect conventions | 7 | 20 min |
+| 11 | Create interface | 8 | 1 Stunde |
+| 12 | Implementing movements | 8 | 4 Stunden |
+| 13 | Prevent forbidden movements | 8 | 2 Stunden |
 
 ### Important code snippets
 
 ## Documentation - Sprint 2
 ### Tasklist
-| Tasknummer | Tasks | Userstory | Geschätzter Aufwand |
+| Tasknumber | Tasks | Userstory | Estimated effort |
 |:-:|-----|:-:|:-:|
-| 1 |  | x | x Stunden |
-| 2 |  | x | x Stunden |
-| 3 |  | x | x Stunden |
-| 4 |  | x | x Stunden |
-| 5 |  | x | x Stunden |
-| 6 |  | x | x Stunden |
-| 7 |  | x | x Stunden |
-| 8 |  | x | x Stunden |
-| 9 |  | x | x Stunden |
-| 10 |  | x | x Stunden |
-| 11 |  | x | x Stunden |
-| 12 |  | x | x Stunden |
+| 1 | Adjust speed of the snake| 2 | 1 Stunden |
+| 2 | Show Endscore | 4 | 1 Stunden |
+| 3 | Create animation(s) | 4 | 10 min |
+| 4 | Implement animation | 4 | 10 min |
+| 5 | Menu presentation | 5 | 2 Stunden |
 
 ### Important code snippets
+
+
+## Test cases
+| Test Case # | Description | Test Data | Expected Result | Actual Result | Pass/Fail |
+|:-:|-----|:-:|-----|:-:|:-:|
+| 1 | Are Apples appearing randomly inside the playfield? | / | Apples are distributed randomly on the field | As expected | Pass |
+| 2 | Is the score incremented with each eaten Apple? | Eat Apple | Increment the score with each apple eaten | As expected | Pass |
+| 3 | Does the snkae grow in size with each appel eaten? | Eat Apple | The size of the snake grows with apples eaten | As expected | Pass |
+| 4 | Are the start and exit buttons working properly? | Click on start/exit | The start button starts a new game and the exit button closes the software | As expected | Pass |
+| 5 | Is the score displayed during the game? | / | The current score is displayed and constantly updated during the game | As expected | Pass |
+| 6 | Is the score resetted at death? | Die | At the death, the current score is resetted to zero | As expected | Pass |
+| 7 | Can you change the direction of the snake by using the arrow keys? | Arrow Keys | Arrow keys change the direction of the snake | As expected | Pass |
+| 8 | Are forbidden movements prevented? | Arrow Keys | Cannot change the direction to the opposite (left->right or up->down) | As expected | Pass |
+| 9 | Can you adjust the difficulty of the game? | Clicking on the different difficulty buttons | The speed of the snake can be changed in the Menu to set the difficulty of the game| As expected | Pass |
+| 10 | Is the endscore shown on the screen? | Game Over | The Endscore is shown on the screen at Game Over| As expected | Pass |
+

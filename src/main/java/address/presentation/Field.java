@@ -1,7 +1,9 @@
-package address.model;
+package address.presentation;
 
 import java.util.ArrayList;
 
+import address.SnakeApp;
+import address.model.Snake;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.Border;
@@ -25,7 +27,7 @@ public class Field extends Pane {
 		w = width;
 		h = height;
 
-		setMinSize(w * Main_UI.blockSize, h * Main_UI.blockSize);
+		setMinSize(w * SnakeApp.getBlockSize(), h * SnakeApp.getBlockSize());
 		setBackground(new Background(new BackgroundFill(Color.AZURE, null, null)));
 		setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, null, new BorderWidths(1))));
 
